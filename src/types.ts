@@ -39,3 +39,14 @@ export type criaDocenteInput = {
     especialidades: ESPECIALIDADE[],
     turma_id: number;
   };
+
+
+  export type  atualizaEstudanteInput = {
+    estudante_id:number,
+    turma_id: number
+  }
+
+  export type  atualizaDocenteInput = {
+    docente_id:number,
+    turma_id: number
+  }

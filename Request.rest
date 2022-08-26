@@ -15,11 +15,11 @@ POST http://localhost:3003/estudante
 Content-Type: application/json
 
 {
-    "id": 1 ,
-    "nome": "Caio",
+    "id": 1,
+    "nome": "caio",
     "email": "caio@email.com",
     "data_nasc":"1997-07-10",
-    "hobbies": ["ver filme","Cuidar do Lupin","aprontar"],
+    "hobbies": ["jogar","Cuidar do Lupin","aprontar"],
     "turma_id":1
 }
 
@@ -29,11 +29,33 @@ POST http://localhost:3003/docente
 Content-Type: application/json 
 
 {
-    "id": 1 ,
-    "nome": "Caio",
-    "email": "caio@email.com",
+    "id": 2 ,
+    "nome": "monaliza",
+    "email": "monaliza@email.com",
     "data_nasc":"1997-07-10",
     "especialidades": ["CSS","REACT","REDUX"],
-    "turma_id":1
+    "turma_id":2
 
 }
+
+### 
+Put http://localhost:3003/docente
+Content-Type: application/json
+
+{
+    "docente_id":2,
+    "turma_id":9
+}
+
+### 
+Put http://localhost:3003/estudante
+Content-Type: application/json
+
+{
+    "estudante_id":1,
+    "turma_id":9
+}
+
+###
+GET http://localhost:3003/estudante/5
+Content-Type: application/json
