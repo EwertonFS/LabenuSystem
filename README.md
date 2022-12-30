@@ -82,7 +82,8 @@ exemplo: "21/03/1999"
 + **Mudar docente de turma**
 
 ## Organograma 
-![]()
+
+ ![Projeto LabenuSystem](https://user-images.githubusercontent.com/94709800/210081881-1df30137-b022-46a1-9c6b-fc645e45b5ef.png)
 ### Tecnologia
 * typescript
 * Request.rest
@@ -93,4 +94,4 @@ exemplo: "21/03/1999"
     *knex
     *mysql
 
- 
+
